@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{b44b2e8b-cc15-460a-8822-6b4738e3473a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{19dcf364-4cc1-456e-846e-297516e9dd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\cmd">
+      <UniqueIdentifier>{f4c68d98-2124-4d80-97c3-aff919202dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\commands">
+      <UniqueIdentifier>{a76cfc7f-6872-4a49-a138-963c9ea38a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cmd">
+      <UniqueIdentifier>{ca73982e-ad02-4014-883f-140d208f31ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\commands">
+      <UniqueIdentifier>{d1282c62-b791-4ef6-92f6-c1f50876b493}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd\CMD.cpp">
+      <Filter>Source Files\src\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd\CommandHistory.cpp">
+      <Filter>Source Files\src\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmd\CommandManager.cpp">
+      <Filter>Source Files\src\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\CdCommand.cpp">
+      <Filter>Source Files\src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\ClsCommand.cpp">
+      <Filter>Source Files\src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\DirCommand.cpp">
+      <Filter>Source Files\src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\EchoCommand.cpp">
+      <Filter>Source Files\src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\HelpCommand.cpp">
+      <Filter>Source Files\src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\HistoryCommand.cpp">
+      <Filter>Source Files\src\commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cmd\CMD.h">
+      <Filter>Header Files\include\cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmd\CommandHistory.h">
+      <Filter>Header Files\include\cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmd\CommandManager.h">
+      <Filter>Header Files\include\cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\CdCommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\ClsCommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\DirCommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\EchoCommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\HelpCommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\HistoryCommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\ICommand.h">
+      <Filter>Header Files\include\commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
