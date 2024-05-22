@@ -143,7 +143,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="src\cmd\CMD.cpp" />
     <ClCompile Include="src\cmd\CommandHistory.cpp" />
     <ClCompile Include="src\cmd\CommandManager.cpp" />
@@ -153,6 +152,7 @@
     <ClCompile Include="src\commands\EchoCommand.cpp" />
     <ClCompile Include="src\commands\HelpCommand.cpp" />
     <ClCompile Include="src\commands\HistoryCommand.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cmd\CMD.h" />
