@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Set the project name
+# Définir le nom du projet
 project(CMD_Project)
 
-# Specify the C++ standard
+# Spécifier le standard C++
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the src directory
+# Ajouter le répertoire src
 add_subdirectory(src)

@@ -1,12 +1,15 @@
-# Add the executable for the main application
+# Ajouter l'exécutable pour l'application principale
 add_executable(cmd_app main.cpp)
 
-# Include directories
+# Inclure les répertoires
 include_directories(${CMAKE_SOURCE_DIR}/src/cmd)
 include_directories(${CMAKE_SOURCE_DIR}/src/commands)
 
-# Add source files
-target_sources(cmd_app PRIVATE
+# Ajouter les fichiers sources (seulement main.cpp ici)
+target_sources(cmd_app PRIVATE main.cpp)
+
+# Ajouter les fichiers d'en-tête pour l'IDE (optionnel)
+target_include_directories(cmd_app PRIVATE
     cmd/CMD.h
     cmd/CommandManager.h
     cmd/CommandHistory.h
